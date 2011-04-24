@@ -26,7 +26,7 @@ In your views:
     <%= image_tag @user.gravatar_image %>
     <%= @user.gravatar_profile['displayName'] %>
 
-This works if you have an "email" field in your model. To use a different field for email, pass the field name to the :email option:
+This works if you have an `email` field in your model. To use a different field for email, pass the field name to the `:email` option:
 
     class User < ActiveRecord::Base
       has_gravatar :email => :email_address
