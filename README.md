@@ -62,13 +62,19 @@ Here is a complete list of options:
     <td><b>default</b></td>
     <td>The avatar image used by default</td>
     <td><i>none</i></td>
-    <td>"404", "mm", "identicon", "monsterid", "wavatar", "retro" or an absolute URL.</td>
+    <td>"404", "mm", "identicon", "monsterid", "wavatar", "retro" or an absolute URL (this must start with "http").</td>
   </tr>
   <tr>
     <td><b>rating</b></td>
     <td>The lowest level of ratings you want to allow</td>
     <td>G</td>
     <td>G, PG, R or X</td>
+  </tr>
+  <tr>
+    <td><b>forcedefault</b></td>
+    <td>Force usage of the default image</td>
+    <td>false</td>
+    <td>true/false</td>
   </tr>
 </table>
 
