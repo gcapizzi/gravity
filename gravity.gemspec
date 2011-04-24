@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Giuseppe Capizzi"]
   s.email       = ["g.capizzi@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "http://github.com/gcapizzi/gravity"
   s.summary     = %q{A simple gravatar plugin for Rails.}
   s.description = %q{A simple gravatar plugin for Rails.}
 
