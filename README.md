@@ -32,6 +32,11 @@ This works if you have an `email` field in your model. To use a different field 
       has_gravatar :email => :email_address
     end
 
+You can also pass options to the ´gravatar_image´ and ´gravatar_profile´ methods:
+
+    <%= image_tag @user.gravatar_image :size => 40, :default => 'identicon' %>
+    <%= @user.gravatar_profile(:secure => true)['displayName'] %>
+
 Here is a complete list of options:
 
 <table width="100%">
