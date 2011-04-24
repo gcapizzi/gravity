@@ -1,14 +1,14 @@
 Gravity
 =======
 
-Gravity is a simple plugin for Rails. It allows you to easily get gravatar images and gravatar profile informations.
+Gravity is a simple [Gravatar](http://gravatar.com) plugin for Rails. It allows you to easily get Gravatar images and profile informations.
 
 Installation
 ============
 
 Just add it to your Gemfile like this:
 
-gem "gravity"
+    gem "gravity"
 
 and you're ready to go.
 
@@ -54,22 +54,19 @@ Here is a complete list of options:
     <td>1..512</td>
   </tr>
   <tr>
-    <td><b>default</b></td>
+    <td><b>default</b> or <b>d</b></td>
     <td>The avatar image used by default</td>
     <td><i>none</i></td>
     <td>"identicon", "monsterid", "wavatar" or an absolute URL.</td>
   </tr>
   <tr>
-    <td><b>rating</b></td>
+    <td><b>rating</b> or <b>r</b></td>
     <td>The lowest level of ratings you want to allow</td>
     <td>G</td>
     <td>G, PG, R or X</td>
   </tr>
 </table>
 
-Example
-=======
+See the [Gravatar site](gravatar.com/site/implement/images) for more informations.
 
-
-
-Copyright (c) 2011 [name of plugin creator], released under the MIT license
+Copyright (c) 2011 Giuseppe Capizzi, released under the MIT license
