@@ -37,6 +37,10 @@ module Gravity
       secure = options.delete :secure
       url = gravatar_url(secure) + 'avatar/' + gravatar_hash(email)
 
+      if options.has_key?(:default)
+        options[:default] = CGI::encode options[:default] if options[:default].match(/^http/)
+      end
+
       if !options.empty?
         url += '?' + options.map{|o, v| "#{o}=#{v.to_s}"}.join('&')
       end

@@ -53,19 +53,19 @@ Here is a complete list of options:
     <td>true/false</td>
   </tr>
   <tr>
-    <td><b>size</b> or <b>s</b></td>
+    <td><b>size</b></td>
     <td>The size of the image</td>
     <td>80</td>
     <td>1..512</td>
   </tr>
   <tr>
-    <td><b>default</b> or <b>d</b></td>
+    <td><b>default</b></td>
     <td>The avatar image used by default</td>
     <td><i>none</i></td>
-    <td>"404", "mm", "identicon", "monsterid", "wavatar", "retro" or an absolute URL (encoded).</td>
+    <td>"404", "mm", "identicon", "monsterid", "wavatar", "retro" or an absolute URL.</td>
   </tr>
   <tr>
-    <td><b>rating</b> or <b>r</b></td>
+    <td><b>rating</b></td>
     <td>The lowest level of ratings you want to allow</td>
     <td>G</td>
     <td>G, PG, R or X</td>
