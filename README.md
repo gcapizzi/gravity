@@ -62,7 +62,7 @@ Here is a complete list of options:
     <td><b>default</b> or <b>d</b></td>
     <td>The avatar image used by default</td>
     <td><i>none</i></td>
-    <td>"identicon", "monsterid", "wavatar" or an absolute URL.</td>
+    <td>"404", "mm", "identicon", "monsterid", "wavatar", "retro" or an absolute URL (encoded).</td>
   </tr>
   <tr>
     <td><b>rating</b> or <b>r</b></td>
@@ -72,6 +72,6 @@ Here is a complete list of options:
   </tr>
 </table>
 
-See the [Gravatar site](gravatar.com/site/implement/images) for more informations.
+See the [Gravatar site](http://gravatar.com/site/implement/images) for more informations.
 
 Copyright (c) 2011 Giuseppe Capizzi, released under the MIT license
